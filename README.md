@@ -1,16 +1,33 @@
 # Effective python 中文版練習
 ## 59個具體作法
+摘錄[effective python](http://www.books.com.tw/products/0010687746)書中的練習，作為自己學習筆記之用。需要常參考原著服用
 
 ### Ch2 函式
 - [ ] 14. 優先使用例外而非回傳None
-- [x] [15. 知道Closures如何與變數範疇互動]('https://github.com/ihongChen/Effective_python_ex/blob/master/15_closures.py')
-- [x] [16. 考慮使用產生器而非回傳串列]('https://github.com/ihongChen/Effective_python_ex/blob/master/16_yield.py')
-- [x] [17. 迭代引數時要做好防備]('https://github.com/ihongChen/Effective_python_ex/blob/master/17_iter_args.py')
-- [ ] 18. 以可變的位置引數來減少視覺雜訊
-- [ ] 19. 以關鍵字引數提供選擇性的行為
-- [ ] 20. 使用None與Docstrings來指定動態的預設引數
+- [x] 15. 知道Closures如何與變數範疇互動
+- [x] 16. 考慮使用產生器而非回傳串列
+- [x] 17. 迭代引數時要做好防備
+- [x] 18. 以可變的位置引數來減少視覺雜訊
+- [x] 19. 以關鍵字引數提供選擇性的行為
+- [x] 20. 使用None與Docstrings來指定動態的預設引數
 - [ ] 21. 強制使用僅限關鍵字引數讓程式碼更清楚易懂
 
 ### ch3 類別與繼承
-- [x] [23. 接受函式為簡單界面，而非使用類別]('https://github.com/ihongChen/Effective_python_ex/blob/master/23_hook.py')
-- [ ] ......
+- [ ] 22. 優先選用輔助類別而非使用字典或元祖來管理紀錄
+- [x] 23. 接受函式為簡單界面，而非使用類別
+- [ ] 24. 使用`@classmethod`多行機制來建構汎用物件
+- [ ] 25. 使用`super`來初始化父類別
+- [ ] 26. 多重繼承只用於Mix-In工具類別
+- [ ] 27. 優先選用公開屬性而非私有屬性
+- [ ] 28.
+
+### ch4 元類別與屬性
+- [ ] ...
+
+### ch5 共時與平行處理
+- [ ] 36. 使用`subprocess`來管理子行程
+- [ ] 37. 執行序用於阻斷式I/O，避免用於平行處理
+- [ ] 38. 使用`Lock`來避免執行緒之間的資料競態
+- [ ] 39. 使用`Queue`來協調執行緒之間的工作
+- [ ] 40. 考慮使用`Coroutines`來共時執行許多函式
+- [ ] 41. 考慮使用`concurrent.futures`來達成真正的平行處理
