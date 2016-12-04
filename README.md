@@ -26,7 +26,10 @@
 - [x] 30. 考慮使用`@property`而非重構屬性
 - [x] 31. 使用描述器來建立可重用的`@property`方法
 - [ ] 32  使用`__getattr__`,`__getattribute__`,與`__setattr__`來建立惰性屬性
+<<<<<<< HEAD
 - [ ] ...
+=======
+>>>>>>> bf0e278e9c6b91bec74bf4dc7a8db7d4d386a9f9
 
 ### ch5 共時與平行處理
 - [ ] 36. 使用`subprocess`來管理子行程
