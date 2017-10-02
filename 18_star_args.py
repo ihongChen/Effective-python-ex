@@ -2,10 +2,10 @@
 
 def log(message,*values):
     if not values:
-        print message
+        print(message)
     else:
         values_str = ', '.join(str(x) for x in values)
-        print '{}:{}'.format(message,values_str)
+        print('{}:{}'.format(message,values_str))
 
 log('hi there') # hi there
 log('My numbers are',1,2,3,4,5) # My numbers are : 1,2,3,4,5
